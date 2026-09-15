@@ -1,0 +1,34 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter / editors
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Experiment outputs
+results/
+
+# Local environment / logs
+.env
+*.log
+report/
+
+generate_report.py
+verify_env.py
+requirements-lock.txt
